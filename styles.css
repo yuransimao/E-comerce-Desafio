@@ -182,3 +182,16 @@ clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 color:rgb(247, 0, 0);
 font-size: 2rem;
 }
+
+.Container_Section1 .Cards .Card .Content button{
+width: 99%;
+margin-top: 15.5rem;
+background: #000000;
+color: #ffffff;
+height: 5%;
+cursor: pointer;
+padding: 0.5rem;
+font-size: 1rem;
+border-radius:8px ;
+transition: .5s all;
+}
