@@ -42,5 +42,11 @@ background-color: #bdbbbb;
 width: 100%;
 height: 100%;
 background: #dadadac7;
+}
 
+.Container_Section0{
+width: 100%;
+position: relative;
+left: 50%;
+height: 100%;
 }
