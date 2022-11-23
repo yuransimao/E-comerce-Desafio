@@ -95,3 +95,9 @@ transition: .5s all;
 
 
 }
+
+.Container_Section0  .Text button:hover{
+color: black;
+filter: blur(1px);
+}
+    
