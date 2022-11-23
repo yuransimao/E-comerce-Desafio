@@ -31,3 +31,10 @@ width: 100%;
 z-index:20;
 box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
 }
+
+.Header img{
+width: 3%;
+clip-path: circle(50%);
+background-color: #bdbbbb;
+
+}
