@@ -64,3 +64,12 @@ left: -100%;
 .Container_Section0 img{
 width: 70%;
 }
+
+.Container_Section0  .Text{
+position: absolute;
+z-index: 2;
+color: #bdbbbb;
+top: 35%;
+left: -11.5%;
+}
+    
