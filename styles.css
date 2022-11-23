@@ -242,3 +242,10 @@ transition: .5s all;
 color: #5a3907;
 filter: blur(0.5px);
 }
+
+@keyframes fadeUp{
+    0%{
+        transform:translateX(-5rem);
+        opacity:0;
+    }
+}
