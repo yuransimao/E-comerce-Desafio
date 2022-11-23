@@ -237,3 +237,8 @@ font-size: 2rem;
 margin-top: 2rem;
 transition: .5s all;
 }
+
+.Container_Section2 .Percent button:hover{
+color: #5a3907;
+filter: blur(0.5px);
+}
