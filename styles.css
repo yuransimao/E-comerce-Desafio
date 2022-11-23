@@ -209,3 +209,12 @@ transition: .5s all;
     justify-content: space-around;
     text-align: center;
 }
+
+.Container_Section2 .Percent{
+margin-top:2rem ;
+}
+
+.Container_Section2 .Percent h2{
+font-size: 4rem;
+padding-bottom:1rem ;
+}
