@@ -50,3 +50,13 @@ position: relative;
 left: 50%;
 height: 100%;
 }
+
+.Container_Section0::before{
+content: "";
+background: #1d1d1d;
+width: 100%;
+height: 100%;
+position: absolute;
+left: -100%;
+
+}
