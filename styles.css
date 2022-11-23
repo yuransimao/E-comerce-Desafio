@@ -226,3 +226,14 @@ font-size: 1.5rem;
 padding-bottom:1rem ;
 margin-left:18% ;
 }
+
+.Container_Section2 .Percent button{
+width: 60%;
+background: #000000;
+color: #ffffff;
+cursor: pointer;
+padding: 1rem;
+font-size: 2rem;
+margin-top: 2rem;
+transition: .5s all;
+}
