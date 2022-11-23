@@ -195,3 +195,8 @@ font-size: 1rem;
 border-radius:8px ;
 transition: .5s all;
 }
+
+.Container_Section1 .Cards .Card .Content button:hover{
+    color: #5a3907;
+    filter: blur(0.5px);
+}
