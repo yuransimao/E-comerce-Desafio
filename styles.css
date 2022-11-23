@@ -168,3 +168,12 @@ color:white;
 font-size: 3rem;
 text-transform: uppercase;
 }
+
+.Container_Section1 .Cards .Card .Content p{
+color: #5a3907;
+font-size: 2rem;
+margin-top: 5rem;
+padding: 0.5rem 3rem;
+background: #fcb140;
+clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
