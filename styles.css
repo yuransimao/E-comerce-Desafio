@@ -136,3 +136,9 @@ background: #fe9900;
 padding: 1rem 3rem;
 clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }
+
+.Container_Section1 .Card img{
+width: 100%;
+border-radius: 19px;
+}
+    
