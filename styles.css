@@ -200,3 +200,12 @@ transition: .5s all;
     color: #5a3907;
     filter: blur(0.5px);
 }
+
+.Container_Section2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
