@@ -110,3 +110,9 @@ justify-content: space-around;
 padding: 1rem;
 flex-direction: column;
 }
+
+.Container_Section1 .Cards{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
