@@ -4,13 +4,14 @@ margin:0;
 padding: 0;
 outline: none;
 border: none;
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Josefin Sans';
 user-select: none;
 }
 
 html, body{
 width: 100%;
 height: 100%;
+background: #dadadac7;
 }
 
 
@@ -24,12 +25,12 @@ overflow-x: hidden;
 display: flex;
 align-items: center;
 justify-content: center;
-position: fixed;
-background: #000000;
+position: relative;
+background: #fcfcfc;
 height: 10vh;
 width: 100%;
 z-index:20;
-box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+
 }
 
 .Header img{
@@ -41,7 +42,8 @@ background-color: #bdbbbb;
 .Container{
 width: 100%;
 height: 100%;
-background: #dadadac7;
+padding-top: 2rem;
+
 }
 
 .Container_Section0{
@@ -49,20 +51,21 @@ width: 100%;
 position: relative;
 left: 50%;
 height: 100%;
+
 }
 
-.Container_Section0::before{
+.Container_Section0::after{
 content: "";
 background: #1d1d1d;
-width: 100%;
-height: 100%;
+width: 50%;
+height: 99.6%;
 position: absolute;
-left: -100%;
+left: -50%;
 
 }
 
 .Container_Section0 img{
-width: 70%;
+width: 62%;
 }
 
 .Container_Section0  .Text{
@@ -78,7 +81,7 @@ width: 40%;
 color: #ffffff;
 font-size: 5rem;
 text-transform: uppercase;
-font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .Container_Section0  .Text button{
@@ -100,14 +103,18 @@ transition: .5s all;
 color: black;
 filter: blur(1px);
 }
-
+.Container1{
+    width:100%;
+    height: 100%;
+    
+}
 .Container_Section1{
 width: 100%;
 height: 100%;
 display: flex;
 align-items: center;
 justify-content: space-around;
-padding: 1rem;
+
 flex-direction: column;
 }
 
@@ -119,7 +126,7 @@ justify-content: space-around;
 
 .Container_Section1 .Card{
 width: 20%;
-height: 20%;
+height: 99%;
 border-radius: 24px;
 box-shadow: 4px 4px 4px 4px rgb(39, 34, 34);
 }
@@ -144,21 +151,23 @@ border-radius: 19px;
 
 .Container_Section1 .Cards .Card .Content{
     display: none;
+  
 }
 
 .Container_Section1 .Cards .Card:hover .Content{
 width: 20%;
-height: 68%;
+height: 69.4%;
 display: flex;
 align-items: center;
 flex-direction: column;
-position: absolute;
-background: #00000050;
-top: 124%;
+background: #00000080;
 z-index: 100;
-border-radius: 24px;
+position: absolute;
+top:130.5%;
+border-radius: 19px;
 animation:fadeUp .6s linear;
 opacity: 1;
+
 
 }
 
@@ -167,6 +176,18 @@ margin-top: 6rem;
 color:white;
 font-size: 3rem;
 text-transform: uppercase;
+}
+
+.Container_Section1 .Cards .Card .Content .Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Container_Section1 .Cards .Card .Content .Icon img {
+    width: 16%;
+    padding: 0.5rem;
 }
 
 .Container_Section1 .Cards .Card .Content p{
@@ -184,16 +205,17 @@ font-size: 2rem;
 }
 
 .Container_Section1 .Cards .Card .Content button{
-width: 99%;
-margin-top: 15.5rem;
+width: 100%;
 background: #000000;
 color: #ffffff;
-height: 5%;
+height: 10%;
 cursor: pointer;
 padding: 0.5rem;
-font-size: 1rem;
-border-radius:8px ;
+font-size: 1.5rem;
+border-radius:19px ;
+margin-top: 10rem;
 transition: .5s all;
+
 }
 
 .Container_Section1 .Cards .Card .Content button:hover{
@@ -202,16 +224,16 @@ transition: .5s all;
 }
 
 .Container_Section2{
-    height: 100%;
+    height: 50%;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    margin-top: 1rem;
     text-align: center;
 }
 
 .Container_Section2 .Percent{
-margin-top:2rem ;
+
 }
 
 .Container_Section2 .Percent h2{
